@@ -4,8 +4,8 @@ import { ArrowRight } from "../../assets/ArrowRight"
 
 export function Plans() {
   return (
-    <section className="mt-[142px] mb-[100px]">
-      <ul className="flex items-start justify-center gap-[32px]">
+    <section className="-mt-[200px] sm:mt-[142px] mb-0 sm:mb-[100px] h-[1580px]">
+      <ul className="flex flex-col sm:flex-row items-center sm:items-start justify-center gap-[32px] scale-75 sm:scale-100">
         <li className="w-[378.66px] bg-[#0e1013] rounded-[4px] border-2 border-white/10">
           <h4 className="mt-[34px] ml-[50px] text-[36px] mb-[23px]">Mensal</h4>
 
