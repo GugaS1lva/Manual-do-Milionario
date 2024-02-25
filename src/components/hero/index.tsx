@@ -47,19 +47,19 @@ export function Hero() {
 }
 
 
-{/* Exemplo de importaçã dinâmica dos textos!
-// import { stats } from "../../constants"
+// Exemplo de importaçã dinâmica dos textos!
+// import { highlightedFeatures } from "../../constants"
 
-// export function Hero() {
+// export function Tero() {
 //   return (
 //     <section>
 //       <h1>Manual do Milionário</h1>
-//       <h1>{stats.map(stat => (
-//           <div key={stat.id}>
-//             {stat.value}
-//           </div>
-//         ))}</h1>
+//       <ul>{highlightedFeatures.map((index, feature) => (
+//           <li key={index}>
+//             <strong>{feature.value}</strong>
+//             <span>{feature.title}</span>
+//           </li>
+//         ))}</ul>
 //     </section>
 //   )
 // }
-*/}

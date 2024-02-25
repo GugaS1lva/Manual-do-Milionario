@@ -17,11 +17,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-black">
-        {/* <LightEfectTop className="absolute -z-10" /> */}
+      <body className="bg-black overflow-x-hidden">
+        <LightEfectTop className="absolute -z-10" />
         {children}
-        {/* <YellowLightEfect className="absolute right-0 top-[500px] -z-10" /> */}
-        {/* <LightEfectBot className="absolute bottom-100 -translate-y-full -z-10" /> */}
+        <YellowLightEfect className="absolute right-0 top-[500px] -z-10" />
+        <LightEfectBot className="absolute bottom-100 -translate-y-full -z-10 " />
       </body>
     </html>
   );
