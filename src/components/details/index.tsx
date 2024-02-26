@@ -14,7 +14,7 @@ export function Details() {
       </div>
 
       <ul className="flex scale-75 sm:scale-100 flex-col my-0 sm:my-[70px] gap-y-[36px]">
-        <li className="flex items-center gap-[20px] hover:bg-gradient-to-b hover:from-white/30 hover:to-[#14101d] py-[16px] px-[20px] rounded-[20px] hover:cursor-pointer custom-hover-bg">
+        <li className=" flex items-center gap-[20px] hover:bg-gradient-to-b hover:from-white/30 hover:to-[#14101d] py-[16px] px-[20px] rounded-[20px] hover:cursor-pointer custom-hover-bg">
           <div className="w-[64px] h-[64px] rounded-[100%] bg-[#0E1013] flex flex-col items-center justify-center icon">
             <Star />
           </div>
@@ -25,7 +25,7 @@ export function Details() {
           </div>
         </li>
 
-        <li className="flex items-center gap-[20px] hover:bg-gradient-to-b hover:from-white/30 hover:to-[#14101d] py-[16px] px-[20px] rounded-[20px] hover:cursor-pointer custom-hover-bg">
+        <li className=" flex items-center gap-[20px] hover:bg-gradient-to-b hover:from-white/30 hover:to-[#14101d] py-[16px] px-[20px] rounded-[20px] hover:cursor-pointer custom-hover-bg">
           <div className="w-[64px] h-[64px] rounded-[100%] bg-[#0E1013] flex flex-col items-center justify-center icon">
             <Clock />
           </div>
@@ -36,7 +36,7 @@ export function Details() {
           </div>
         </li>
 
-        <li className="flex items-center gap-[20px] hover:bg-gradient-to-b hover:from-white/30 hover:to-[#14101d] py-[16px] px-[20px] rounded-[20px] hover:cursor-pointer custom-hover-bg">
+        <li className=" flex items-center gap-[20px] hover:bg-gradient-to-b hover:from-white/30 hover:to-[#14101d] py-[16px] px-[20px] rounded-[20px] hover:cursor-pointer custom-hover-bg">
           <div className="w-[64px] h-[64px] rounded-[100%] bg-[#0E1013] flex flex-col items-center justify-center icon">
             <Share />
           </div>
